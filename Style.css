@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(240, 177, 6) ;
+  display: flex;
+  min-height: 50px;
+}
+
+.opciones {
+  padding-left: 72%;
+  display: flex;
+  margin: 10px;
+}
+
+.opcion {
+  margin-right: 30px;
+  list-style: none;
+  position: relative;
+  border-radius: 50%;
+}
+
+.opcion a{
+  position: relative;
+  background: blue;
+  text-decoration: none;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 3px black;
+  transition: .5s;
+}
+
+.opcion a i{
+  font-size: 30px;
+  color: yellow;
+  transition: .5s;
+
+
+}
+
+.opcion a:hover {
+  background: yellow;
+}
+
+.opcion a:hover i{
+  background: blue;
+}
+
+.opcion a span{
+  position: absolute;
+  color: yellow;
+  background: blue;
+  font-family: sans-serif;
+  top: 80px;
+  left: 32px;
+  transform: translateX(-50%);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  visibility: hidden;
+  opacity: 0;
+  
+}
+
+.opcion a:hover span{
+  top: 70px;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 2px 2px 2px 3px black;
+}
+
+#titulo{
+  position: absolute;
+  font-size: 70px;
+  color: blue;
+  padding-left: 160px;
+}
+
+#boca {
+  position: absolute;
+  padding-bottom: 5px;
+}
+
+.pepe {
+  padding-left: 150px;
+}
+
+#imagen1 {
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 10px 20px 25px 15px rgb(25, 55, 224);
+  margin: 50px;
+  transition: transform 0.3s ease;
+}
+#imagen2 {
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 10px 20px 25px 15px rgb(25, 55, 224);
+  margin: 50px;
+  transition: transform 0.3s ease;
+}
+#imagen3 {
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 10px 20px 25px 15px rgb(25, 55, 224);
+  margin: 50px;
+  transition: transform 0.3s ease;
+}
+
+#imagen1:hover {
+  transform: scale(1.1);
+}
+#imagen2:hover {
+  transform: scale(1.1);
+}
+#imagen3:hover {
+  transform: scale(1.1);
+}
+
+
+.nombre{
+  display: flex;
+  padding-left: 155px;
+}
+
+.nombres{
+  margin: 0px 100px;
+}
+p {
+  font-size: 20px;
+}
